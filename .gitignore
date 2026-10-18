@@ -1,0 +1,22 @@
+# === Windows MSVC 编译产物 ===
+*.obj
+*.sys
+*.pdb
+*.ilk
+*.exp
+*.lib
+
+# === 编译生成的临时文件 ===
+*.log
+build/
+out/
+
+# === macOS 系统文件（因为通过共享目录访问）===
+.DS_Store
+
+# === Windows 系统文件 ===
+Thumbs.db
+desktop.ini
+
+# === 编辑器本地配置 ===
+.vscode/
